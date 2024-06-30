@@ -7,7 +7,7 @@ import {
   CryptoHistory,
   ForbesList,
 } from 'components';
-import artcle from './data/article.json';
+import article from './data/article.json';
 import statistics  from './data/stats.json'
 
 export const App = () => {
