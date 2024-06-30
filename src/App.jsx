@@ -7,7 +7,7 @@ import {
   CryptoHistory,
   ForbesList,
 } from 'components';
-import artcle from './data/article.json';
+import article from './data/article.json';
 
 export const App = () => {
   return (
@@ -15,13 +15,13 @@ export const App = () => {
       <Container>
         <Heading title="Task 1 Blog Card" bottom />
         <BlogCard
-          name={artcle.name}
-          postedAt={artcle.postedAt}
-          poster={artcle.poster}
-          tag={artcle.tag}
-          title={artcle.title}
-          description={artcle.description}
-          avatar={artcle.avatar}
+          name={article.name}
+          postedAt={article.postedAt}
+          poster={article.poster}
+          tag={article.tag}
+          title={article.title}
+          description={article.description}
+          avatar={article.avatar}
         />
 
         <Heading title="Task 2 Statistics" top bottom />
