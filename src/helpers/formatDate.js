@@ -1,7 +1,5 @@
-import { formatDistanceToNow} from "date-fns";
+import { formatDistanceToNow } from 'date-fns';
 
-export const formatDistance = (date) => {
-  retern formatDistanceToNow(new Date(date));
-}
-
-
+export const formatDistans = date => {
+  return formatDistanceToNow(new Date(date));
+};
