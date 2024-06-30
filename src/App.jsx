@@ -8,8 +8,9 @@ import {
   ForbesList,
 } from 'components';
 import article from './data/article.json';
-import statistics  from './data/stats.json';
+import statistics from './data/stats.json';
 import forbes from './data/forbes.json';
+import transactions from './data/transactions.json';
 
 export const App = () => {
   return (
@@ -30,10 +31,10 @@ export const App = () => {
         <Statistics title="Main Statistics" stats={statistics} />
 
         <Heading title="Task 3 Forbes list" top bottom />
-        <ForbesList list={forbes}/>
+        <ForbesList list={forbes} />
 
         <Heading title="Task 4 Crypto history" top bottom />
-        <CryptoHistory />
+        <CryptoHistory transactions={transactions} />
       </Container>
     </Section>
   );
